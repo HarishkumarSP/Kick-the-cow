@@ -1,6 +1,7 @@
 # Kick-the-cow
 My first front end game project,the game is all about kicking the cow to not get close to the vegetable shop.
-Instructions
+
+Instructions:
 *After we getting into a game we first need to touch the Vegetable shop  then only the cow start towards the shop then we have to click the cow it will disappear at the sime time score will increases and if the cow reaches the shop the game will over and we have to retry by kick again menu.*
 In this game i have set a three levels
 
