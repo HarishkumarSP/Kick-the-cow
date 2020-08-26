@@ -4,13 +4,15 @@
 }
 
 h1{
-    font-family: Jazz LET, fantasy,cursive;
+    font-family: Jazz LET, fantasy,cursive, Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
     color: white;
     background-color: black;
     text-align: center;
     font-style: oblique;
 }
+
+
 
 .image{
     height: 90vh;
@@ -21,7 +23,7 @@ h1{
     position: relative;
 }
 
-.container{
+#start,#kick-again,#win{
      position: absolute;
      border: 2px solid black;
      background-color: black;
@@ -34,10 +36,53 @@ h1{
      left: 35%;
 }
 
-.container:hover{
+#start:hover{
     background-color: green;
 }
-.container:active{
+#kick-again:hover{
+    background-color: green;
+}
+#win:hover{
+    background-color: green;
+}
+
+#start:active{
+    transform: translateY(4px);
+}
+
+#kick-again:active{
+    transform: translateY(4px);
+}
+
+#win:active{
+    transform: translateY(4px);
+}
+
+#instruct-button,#exit{
+    position: absolute;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    flex-direction: row-reverse;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    bottom: 70%;
+    right: 35%;
+}
+#instruct-button:hover{
+    background-color: green;
+}
+#exit:hover{
+    background-color: green;
+}
+
+#instruct-button:active{
+    transform: translateY(4px);
+}
+
+#exit:active{
     transform: translateY(4px);
 }
 
@@ -104,3 +149,145 @@ h1{
     height: 50px;
     width: 100px;
 }
+
+.about{
+    position: absolute;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    bottom: 24%;
+    left: 35%;
+}
+.about:hover{
+    background-color: green;
+}
+.about:active{
+    transform: translateY(4px);
+}
+
+.instructions{
+    text-align: center;
+    font-size: 200;
+    
+}
+
+.instructions:hover{
+    background-color:green;
+}
+
+.image{
+    height: 90vh;
+    width: 100%;
+    background-image: url(./assets/shop2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.btn{
+    position: absolute;
+    border: 2px solid black;
+    background-color: black;
+    color: black;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    bottom: 70%;
+    left: 35%;
+}
+
+
+.total{
+    background-image: url(./assets/nature.jpg);
+    height: 96vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;    
+}
+
+.shop{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 350px;
+    width: 210px;
+}
+
+#cow,#cow2,#cow3{
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    margin: 10px;
+    padding: 10px;
+    height: 140px;
+    width: 150px;
+}
+
+#men{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    margin: 10px;
+    padding: 10px;
+    height: 210px;
+    width: 100px;
+}
+
+#women{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    margin: 10px;
+    padding: 10px;
+    height: 210px;
+    width: 90px;
+}
+
+
+#thief,#thief2{
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    margin: 10px;
+    padding: 10px;
+    height: 210px;
+    width: 100px;
+}
+
+.shelter{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+    padding: 5px;
+    height: 250px;
+    width: 180px;
+}
+.title{
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+
+.level{
+    position: absolute;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 12px 40px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    top: 0;
+    right: 0;
+}
+
